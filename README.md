@@ -28,7 +28,7 @@ Follow the steps below to set up the pipeline. I've tried to explain the steps w
 First clone the repository into your home directory and follow the steps.
 
   ```bash
-  git clone git@github.com:ztamnaja/stock-news-analysis-demo.git
+  git clone git@github.com:ztamnaja/stock-news-analysis-demo.git stock-news-analysis
   cd stock-news-analysis
   ```
 
