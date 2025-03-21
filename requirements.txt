@@ -1,0 +1,5 @@
+pandas
+nest_asyncio
+playwright
+beautifulsoup4
+huggingface_hub
