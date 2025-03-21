@@ -15,6 +15,7 @@ This pipeline automates the process of scraping stock-related articles from Yaho
 - Compresses text to reduce storage size before saving.
 
 ✅ Text Analysis
+- The pipeline integrates **Hugging Face LLM models** to extract insights from stock news articles.
 - Sentiment analysis classifies articles as **positive**, **negative**, or **neutral**.  
 - Extracts relevant topics for better stock insights.
 
@@ -43,7 +44,14 @@ HUGGINGFACE_API_KEY=SECRET_TOKEN
 
 ```bash
 pip install -r requirements.txt
+
 ```
+Install playwright: https://playwright.dev/python/docs/intro
+```bash
+pip install pytest-playwright playwright
+playwright install
+```
+
 
 ### Step 3: Running the Pipeline
 Run for a single stock quote:
